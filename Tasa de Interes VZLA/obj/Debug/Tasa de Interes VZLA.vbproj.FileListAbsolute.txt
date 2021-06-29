@@ -1,0 +1,10 @@
+C:\Users\cesarmarcano\Documents\Visual Studio 2008\Projects\Tasa de Interes VZLA\Tasa de Interes VZLA\bin\Debug\Tasa de Interes VZLA.exe
+C:\Users\cesarmarcano\Documents\Visual Studio 2008\Projects\Tasa de Interes VZLA\Tasa de Interes VZLA\bin\Debug\Tasa de Interes VZLA.pdb
+C:\Users\cesarmarcano\Documents\Visual Studio 2008\Projects\Tasa de Interes VZLA\Tasa de Interes VZLA\bin\Debug\Tasa de Interes VZLA.xml
+C:\Users\cesarmarcano\Documents\Visual Studio 2008\Projects\Tasa de Interes VZLA\Tasa de Interes VZLA\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cesarmarcano\Documents\Visual Studio 2008\Projects\Tasa de Interes VZLA\Tasa de Interes VZLA\obj\Debug\Tasa_de_Interes_VZLA.Form1.resources
+C:\Users\cesarmarcano\Documents\Visual Studio 2008\Projects\Tasa de Interes VZLA\Tasa de Interes VZLA\obj\Debug\Tasa_de_Interes_VZLA.Resources.resources
+C:\Users\cesarmarcano\Documents\Visual Studio 2008\Projects\Tasa de Interes VZLA\Tasa de Interes VZLA\obj\Debug\Tasa de Interes VZLA.vbproj.GenerateResource.Cache
+C:\Users\cesarmarcano\Documents\Visual Studio 2008\Projects\Tasa de Interes VZLA\Tasa de Interes VZLA\obj\Debug\Tasa de Interes VZLA.exe
+C:\Users\cesarmarcano\Documents\Visual Studio 2008\Projects\Tasa de Interes VZLA\Tasa de Interes VZLA\obj\Debug\Tasa de Interes VZLA.xml
+C:\Users\cesarmarcano\Documents\Visual Studio 2008\Projects\Tasa de Interes VZLA\Tasa de Interes VZLA\obj\Debug\Tasa de Interes VZLA.pdb
