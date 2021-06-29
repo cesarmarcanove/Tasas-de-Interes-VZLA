@@ -25,6 +25,14 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Button1 = New System.Windows.Forms.Button
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.Label13 = New System.Windows.Forms.Label
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox
+        Me.Label11 = New System.Windows.Forms.Label
+        Me.Label9 = New System.Windows.Forms.Label
+        Me.TxtANUAL = New System.Windows.Forms.TextBox
+        Me.Label12 = New System.Windows.Forms.Label
+        Me.TxtMENS = New System.Windows.Forms.TextBox
+        Me.Label8 = New System.Windows.Forms.Label
         Me.TxtMINT = New System.Windows.Forms.TextBox
         Me.Label10 = New System.Windows.Forms.Label
         Me.Label7 = New System.Windows.Forms.Label
@@ -40,17 +48,6 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label
         Me.Label2 = New System.Windows.Forms.Label
         Me.Label1 = New System.Windows.Forms.Label
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox
-        Me.Label9 = New System.Windows.Forms.Label
-        Me.TxtMENS = New System.Windows.Forms.TextBox
-        Me.Label8 = New System.Windows.Forms.Label
-        Me.Label11 = New System.Windows.Forms.Label
-        Me.TxtANUAL = New System.Windows.Forms.TextBox
-        Me.Label12 = New System.Windows.Forms.Label
-        Me.Label13 = New System.Windows.Forms.Label
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel
-        Me.Label14 = New System.Windows.Forms.Label
-        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -59,7 +56,7 @@ Partial Class Form1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.MediumBlue
-        Me.Button1.Location = New System.Drawing.Point(391, 370)
+        Me.Button1.Location = New System.Drawing.Point(391, 351)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 53)
         Me.Button1.TabIndex = 5
@@ -87,10 +84,97 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(479, 352)
+        Me.GroupBox1.Size = New System.Drawing.Size(479, 333)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Calcular Tasa de Interés Simple"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(45, 104)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(363, 13)
+        Me.Label13.TabIndex = 17
+        Me.Label13.Text = "---------------------------------------------------------------------------------" & _
+            "--------"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.Label11)
+        Me.GroupBox2.Controls.Add(Me.Label9)
+        Me.GroupBox2.Controls.Add(Me.TxtANUAL)
+        Me.GroupBox2.Controls.Add(Me.Label12)
+        Me.GroupBox2.Controls.Add(Me.TxtMENS)
+        Me.GroupBox2.Controls.Add(Me.Label8)
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.ForeColor = System.Drawing.Color.Blue
+        Me.GroupBox2.Location = New System.Drawing.Point(10, 185)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(460, 80)
+        Me.GroupBox2.TabIndex = 16
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Tasas de Interes (Segun banco central de cada país)"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.Black
+        Me.Label11.Location = New System.Drawing.Point(360, 48)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(63, 13)
+        Me.Label11.TabIndex = 19
+        Me.Label11.Text = "(%) anual."
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Black
+        Me.Label9.Location = New System.Drawing.Point(360, 22)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(79, 13)
+        Me.Label9.TabIndex = 16
+        Me.Label9.Text = "(%) Mensual."
+        '
+        'TxtANUAL
+        '
+        Me.TxtANUAL.Location = New System.Drawing.Point(185, 45)
+        Me.TxtANUAL.Name = "TxtANUAL"
+        Me.TxtANUAL.Size = New System.Drawing.Size(169, 20)
+        Me.TxtANUAL.TabIndex = 18
+        Me.TxtANUAL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.ForeColor = System.Drawing.Color.Black
+        Me.Label12.Location = New System.Drawing.Point(29, 48)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(150, 13)
+        Me.Label12.TabIndex = 17
+        Me.Label12.Text = "Tasa de Interés Anual al:"
+        '
+        'TxtMENS
+        '
+        Me.TxtMENS.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtMENS.Location = New System.Drawing.Point(185, 19)
+        Me.TxtMENS.Name = "TxtMENS"
+        Me.TxtMENS.Size = New System.Drawing.Size(169, 20)
+        Me.TxtMENS.TabIndex = 15
+        Me.TxtMENS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.ForeColor = System.Drawing.Color.Black
+        Me.Label8.Location = New System.Drawing.Point(14, 22)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(165, 13)
+        Me.Label8.TabIndex = 14
+        Me.Label8.Text = "Tasa de Interés Mensual al:"
         '
         'TxtMINT
         '
@@ -122,7 +206,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(264, 289)
+        Me.Button2.Location = New System.Drawing.Point(264, 271)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(100, 53)
         Me.Button2.TabIndex = 2
@@ -187,7 +271,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(370, 289)
+        Me.Button3.Location = New System.Drawing.Point(370, 271)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(100, 53)
         Me.Button3.TabIndex = 3
@@ -230,132 +314,11 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Monto del Capital (o Préstamo):"
         '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.LinkLabel2)
-        Me.GroupBox2.Controls.Add(Me.Label14)
-        Me.GroupBox2.Controls.Add(Me.LinkLabel1)
-        Me.GroupBox2.Controls.Add(Me.Label11)
-        Me.GroupBox2.Controls.Add(Me.Label9)
-        Me.GroupBox2.Controls.Add(Me.TxtANUAL)
-        Me.GroupBox2.Controls.Add(Me.Label12)
-        Me.GroupBox2.Controls.Add(Me.TxtMENS)
-        Me.GroupBox2.Controls.Add(Me.Label8)
-        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox2.Location = New System.Drawing.Point(10, 185)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(460, 98)
-        Me.GroupBox2.TabIndex = 16
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Tasas de Interes Segun  B.C.V."
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(360, 22)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(79, 13)
-        Me.Label9.TabIndex = 16
-        Me.Label9.Text = "(%) Mensual."
-        '
-        'TxtMENS
-        '
-        Me.TxtMENS.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtMENS.Location = New System.Drawing.Point(185, 19)
-        Me.TxtMENS.Name = "TxtMENS"
-        Me.TxtMENS.Size = New System.Drawing.Size(169, 20)
-        Me.TxtMENS.TabIndex = 15
-        Me.TxtMENS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(14, 22)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(165, 13)
-        Me.Label8.TabIndex = 14
-        Me.Label8.Text = "Tasa de Interés Mensual al:"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(360, 48)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(63, 13)
-        Me.Label11.TabIndex = 19
-        Me.Label11.Text = "(%) anual."
-        '
-        'TxtANUAL
-        '
-        Me.TxtANUAL.Location = New System.Drawing.Point(185, 45)
-        Me.TxtANUAL.Name = "TxtANUAL"
-        Me.TxtANUAL.Size = New System.Drawing.Size(169, 20)
-        Me.TxtANUAL.TabIndex = 18
-        Me.TxtANUAL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(29, 48)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(150, 13)
-        Me.Label12.TabIndex = 17
-        Me.Label12.Text = "Tasa de Interés Anual al:"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(45, 104)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(363, 13)
-        Me.Label13.TabIndex = 17
-        Me.Label13.Text = "---------------------------------------------------------------------------------" & _
-            "--------"
-        '
-        'LinkLabel1
-        '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(311, 68)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(143, 13)
-        Me.LinkLabel1.TabIndex = 20
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "http://www.bcv.org.ve/"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.ForeColor = System.Drawing.Color.Black
-        Me.Label14.Location = New System.Drawing.Point(95, 68)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(210, 13)
-        Me.Label14.TabIndex = 18
-        Me.Label14.Text = "Visite el sitio web del B.C.V., mas info aquí:"
-        '
-        'LinkLabel2
-        '
-        Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(142, 81)
-        Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(312, 13)
-        Me.LinkLabel2.TabIndex = 21
-        Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "http://www.bcv.org.ve/estadisticas/tasas-de-interes/"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(503, 427)
+        Me.ClientSize = New System.Drawing.Size(503, 413)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
@@ -394,8 +357,5 @@ Partial Class Form1
     Friend WithEvents TxtMENS As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
-    Friend WithEvents Label14 As System.Windows.Forms.Label
-    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
-    Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
 
 End Class
